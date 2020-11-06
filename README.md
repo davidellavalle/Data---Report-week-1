@@ -317,7 +317,72 @@ else:
 
 ### The *for* loop
 
+It is a flow so called because it loops back around to the top after each iteration. The for loop processes each item in a sequence, so it is used with Python’s sequence data types - strings, lists, and tuples. Each item in turn is (re-)assigned to the loop variable, and the body of the loop is executed.
 
+```
+for friend in ['Margot', 'Kathryn', 'Prisila']:
+    invitation = "Hi " + friend + ".  Please come to my party on Saturday!"
+    print(invitation)
+```
+Often times you will want *a loop that iterates a given number of times*, or that iterates over a given sequence of numbers. The *range function* come in handy for that.
+```
+>>> for i in range(5):
+...     print('i is now:', i)
+...
+i is now 0
+i is now 1
+i is now 2
+i is now 3
+i is now 4
+```
 
 ### Break
-a loop might be stopped from running if the True statement has been satisfied 
+The break statement is used to immediately leave the body of its loop. The next statement to be executed is the first one after the body:
+```
+for i in [12, 16, 17, 24, 29]:
+    if i % 2 == 1:  # if the number is odd
+        break        # immediately exit the loop
+    print(i)
+print("done")
+12
+16
+done
+```
+
+### Continue
+
+Skip the rest of the body for that iteration but carry on running for the remaining iterations
+```
+for i in [12, 16, 17, 24, 29, 30]:
+    if i % 2 == 1:      # if the number is odd
+        continue        # don't process it
+    print(i)
+12
+16
+24
+30
+```
+
+### Nested Loops for Nested Data
+
+esercizio 3 + join
+
+----
+
+## Function
+
+A function is a named sequence of statements that performs a desired operation. It si a compoiund statement, header (def e termina con colon:) and body indented
+* I can generate any name but doo not use a Keyword
+* Use as many statements as needed
+* RETURN to cease execution of function (without Return the system will return NONE as value)
+* All other statements after RETURN won't be executed (**dead code**)
+
+```
+def NAME( LIST OF PARAMETERS ):
+    STATEMENTS
+```
+```
+def f(x):
+    return 3 * x ** 2 - 2 * x + 5
+```
+
