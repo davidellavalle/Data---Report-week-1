@@ -374,7 +374,7 @@ esercizio 3 + join
 A function is a named sequence of statements that performs a desired operation. It si a compoiund statement, header (def e termina con colon:) and body indented
 * I can generate any name but doo not use a Keyword
 * Use as many statements as needed
-* RETURN to cease execution of function (without Return the system will return NONE as value)
+* RETURN to cease execution of statements (without Return the system will return NONE as value)
 * All other statements after RETURN won't be executed (**dead code**)
 
 ```
