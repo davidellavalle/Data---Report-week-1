@@ -1,5 +1,3 @@
-insert table of contents
-
 # Data - Report week 1
 
 A computer program is a sequence of instructions that specifies how to perform a computation.
