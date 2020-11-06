@@ -123,7 +123,7 @@ Adding and removing elements to a Set -
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 
-### How to understand the data Type?
+### How to understand the data Type
 
 ```python
 >>> type("Hello, World!")
@@ -131,6 +131,13 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 >>> type(17)
 <class 'int'>
 ```
+
+### How to convert the data Type
+
+float to integer = int(3.14) -> 3  
+integer to float = float(3) -> 3.0
+string to integer = int("123") -> 123
+......
 
 ### How to print your result
 
@@ -145,6 +152,7 @@ Escape sequence can be used to modify the format
 \b	Backspace  
 \n	Linefeed  
 \t	Tab  
+
 ```python
 >>> print("Line 1\n\n\nLine 5")
 Line 1
@@ -160,5 +168,6 @@ Line 5
 
 ### Python Operators
 Operators are special tokens that represent computations like addition, multiplication and division. The values the operator uses are called operands.  
+Operators follow the rule of PEMDAS - Parenthese, Exponentiation, Multiplication and both Division, than Addition and Subtraction  
 The main Python Operators can be found here: https://www.w3schools.com/python/python_operators.asp
 
