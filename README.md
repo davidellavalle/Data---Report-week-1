@@ -162,14 +162,14 @@ a b c d
 a##b##c##d!!>>>
 ```
 Escape sequence can be used to modify the format  
-
+```
 \\      Backslash (\)  
 \'	    Single quote (')  
 \"	    Double quote (")  
 \b	    Backspace  
 \n	    Linefeed  
 \t	    Tab  
-
+```
 ```python
 >>> print("Line 1\n\n\nLine 5")
 Line 1
