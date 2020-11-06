@@ -1,4 +1,4 @@
-#Data - Report week 1
+# Data - Report week 1
 
 A computer program is a sequence of instructions that specifies how to perform a computation.
 **input** - Get data from the keyboard, a file, or some other device.
