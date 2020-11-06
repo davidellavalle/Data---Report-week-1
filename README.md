@@ -87,7 +87,6 @@ A string is a collection of one or more characters put in a single quote, double
 >>> message = """This message will
 ... span several
 ... lines."""
-
 ```
 
 **Some of the most common string methods:**
@@ -100,6 +99,24 @@ A string is a collection of one or more characters put in a single quote, double
 ### **Container**
 
 #### **Set**
+
+Set is an unordered collection of data type that is iterable, mutable and has no duplicate elements (Uniques).  
+The major advantage of using a set, as opposed to a list, is that it has a highly optimized method for checking whether a specific element is contained in the set.
+```python
+Set()
+set1 = set("CodeDataAI")  
+print(set1)
+	{'o', 'D', 'a', 'A', 'e', 't', 'I', 'd', 'C'}
+
+set1 = set(["Code", "Data", "Code"])  
+print(set1)
+	{'Data', 'Code'}
+```
+Adding and removing elements to a Set - 
+* set.add
+* set.update
+* set.remove
+* discard
 
 #### **Dictionary**
 
