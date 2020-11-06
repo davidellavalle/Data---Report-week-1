@@ -127,8 +127,9 @@ Adding and removing elements to a Set -
 
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
+---
 
-### How to understand the data Type
+### How to find out the data Type
 
 ```python
 >>> type("Hello, World!")
@@ -147,7 +148,12 @@ string to integer = int("123") -> 123
 ### How to print your result
 
 ```python
-print("Hello, World!")
+>>> print("Hello, World!")
+Hello, World!
+>>> print('a', 'b', 'c', 'd')
+a b c d
+>>> print('a', 'b', 'c', 'd', sep='##', end='!!')
+a##b##c##d!!>>>
 ```
 Escape sequence can be used to modify the format  
 
@@ -176,7 +182,7 @@ Operators are special tokens that represent computations like addition, multipli
 Operators follow the rule of PEMDAS - Parenthese, Exponentiation, Multiplication and both Division, than Addition and Subtraction  
 The main Python Operators can be found here: https://www.w3schools.com/python/python_operators.asp
 
-### The INDEXING operator
+### INDEX
 
 The indexing operator ([ ]) selects a single element from a sequence. The expression inside brackets is called the index, and must be an integer value. The index indicates which element to select, hence its name.
 ```python
@@ -186,6 +192,42 @@ The indexing operator ([ ]) selects a single element from a sequence. The expres
 >>> pairs = [('cheese', 'queso'), ('red', 'rojo'), ('school', 'escuela')]
 >>> pairs[2]
 ('school', 'escuela')
+```
+
+### Slices
+Like with indexing, we use square brackets ([ ]) as the slice operator, but instead of one integer value inside we have two, seperated by a colon (:):
+```
+>>> singers = "Peter, Paul, and Mary"
+>>> singers[0:5]
+'Peter'
+```
+
+### Length
+
+With lists and tuples, len returns the number of elements in the sequence
+```
+>>> len((2, 4, 6, 8, 10, 12))
+6
+>>> pairs = [('cheese', 'queso'), ('red', 'rojo'), ('school', 'escuela')]
+>>> len(pairs)
+3
+```
+### Enumerate
+
+I can find index and value
+```
+fruits = ['apples', 'bananas', 'blueberries', 'oranges', 'mangos']
+
+for index, fruit in enumerate(fruits):
+    print("The fruit, " + fruit + ", is in position " + str(index) + ".")
+```
+
+### IN
+The in operator returns whether a given element is contained in a list or tuple
+```
+>>> stuff = ['this', 'that', 'these', 'those']
+>>> 'this' in stuff
+True
 ```
 
 ### INPUT function
