@@ -284,5 +284,40 @@ if food == 'spam':
 
 ### The *if else* Statement
 
+It is frequently the case that you want one thing to happen when a condition it true, and something else to happen when it is false
+```
+if food == 'spam':
+    print('Ummmm, my favorite!')
+else:
+    print("No, I won't have it. I want spam!")
+```
+
+### Chained conditionals
+
+```
+if x < y:
+    STATEMENTS_A
+elif x > y:
+    STATEMENTS_B
+else:
+    STATEMENTS_C
+```
+
+### Nested conditionals
+
+```
+if x < y:
+    STATEMENTS_A
+else:
+    if x > y:
+        STATEMENTS_B
+    else:
+        STATEMENTS_C
+```
+
+### The *for* loop
+
+
+
 ### Break
 a loop might be stopped from running if the True statement has been satisfied 
