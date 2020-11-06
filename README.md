@@ -65,13 +65,13 @@ The elements in a list are Indexed and **0 is the first index** -> this means th
 #### **Tuple**
 A Tuple is created by placing all the items (elements) inside a round bracket ( ). It is unchangeable. In Dictionary we can create keys using tuples  
 Indexes works as per LIST: with positive and negative indexes [1] [2] [-1] [-2]  or with range of indexes [2:5] [-3:-1]
-```
+```python
 thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
 print(thistuple[-4:-1])
 ('orange', 'kiwi', 'melon')
 ```
 To the unchangeability of the tuple there is a workaround: you can convert the tuple into a list, change the list, and convert the list back into a tuple.
-```
+```python
 y = list(x)
 y[1] = "kiwi"
 x = tuple(y)
@@ -79,24 +79,23 @@ print(x)
 ("apple", "kiwi", "cherry")
 ```
 
-
 #### **String**
 
-A string is a collection of one or more characters put in a single quote, double-quote or triple quote.
+A string is a collection of one or more characters put in a single quote, double-quote (Double quotes can contain singles) or triple quote (can even span multiple lines)
+```python
+"Ben's bike is broken!"
+>>> message = """This message will
+... span several
+... lines."""
+
+```
 
 **Some of the most common string methods:**
-* s.lower(), s.upper() — returns the lowercase or uppercase version of the string  
-* s.strip() — returns a string with whitespace removed from the start and end  
+* s.lower(), s.upper() — returns the lowercase or uppercase version of the string   
 * s.isalpha()/s.isdigit()/s.isspace()… — tests if all the string chars are in the various character classes  
 * s.startswith(‘ai’), s.endswith(‘ai’) — tests if the string starts or ends with the given ai strin  
 * s.find(‘other’) — searches for the given other string (not a regular expression) within s, and returns the first index where it begins or -1 if not found  
-* s.replace(‘old’, ‘new’) — returns a string where all occurrences of ‘old’ have been replaced by ‘new’  
-* s.split(‘delim’) — returns a list of substrings separated by the given delimiter. The delimiter is not a regular expression, it’s just text. ‘aaa,bbb,ccc’.split(‘,’) -> [‘aaa’, ‘bbb’, ‘ccc’].  
-* s.join(list) — opposite of split(), joins the elements in the given list together using the string as the delimiter.  
-
-strings and the use of quotes
-
-
+* s.replace(‘old’, ‘new’) — returns a string where all occurrences of ‘old’ have been replaced by ‘new’ 
 
 ### **Container**
 
