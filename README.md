@@ -147,8 +147,8 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ### How to convert the data Type
 
 float to integer = int(3.14) -> 3  
-integer to float = float(3) -> 3.0
-string to integer = int("123") -> 123
+integer to float = float(3) -> 3.0  
+string to integer = int("123") -> 123  
 ......
 
 ### How to print your result
