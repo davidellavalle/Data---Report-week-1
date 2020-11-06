@@ -30,7 +30,7 @@ This value is represented by **float class**. It is a real number with floating 
 ### **Boolean**
 
 This is a value that expresses a truth value (which can be **either true or false**) 
-```
+```python
 >>> 5 == 5
 True
 >>> 5 == 6
@@ -189,7 +189,7 @@ The main Python Operators can be found here: https://www.w3schools.com/python/py
 ### = vs == and the other comparison operators
 = assignment operator
 == equal sign
-```
+```python
 x != y       # x is not equal to y
 x > y        # x is greater than y
 x < y        # x is less than y
@@ -211,7 +211,7 @@ The indexing operator ([ ]) selects a single element from a sequence. The expres
 
 ### Slices
 Like with indexing, we use square brackets ([ ]) as the slice operator, but instead of one integer value inside we have two, seperated by a colon (:):
-```
+```python
 >>> singers = "Peter, Paul, and Mary"
 >>> singers[0:5]
 'Peter'
@@ -220,7 +220,7 @@ Like with indexing, we use square brackets ([ ]) as the slice operator, but inst
 ### Length
 
 With lists and tuples, len returns the number of elements in the sequence
-```
+```python
 >>> len((2, 4, 6, 8, 10, 12))
 6
 >>> pairs = [('cheese', 'queso'), ('red', 'rojo'), ('school', 'escuela')]
@@ -230,7 +230,7 @@ With lists and tuples, len returns the number of elements in the sequence
 ### Enumerate
 
 I can find index and value
-```
+```python
 fruits = ['apples', 'bananas', 'blueberries', 'oranges', 'mangos']
 
 for index, fruit in enumerate(fruits):
@@ -239,7 +239,7 @@ for index, fruit in enumerate(fruits):
 
 ### IN
 The in operator returns whether a given element is contained in a list or tuple
-```
+```python
 >>> stuff = ['this', 'that', 'these', 'those']
 >>> 'this' in stuff
 True
@@ -248,7 +248,7 @@ True
 ### Count
 
 The count operator counts how many times the selected element is present in a List, Tuple
-```
+```python
 >>> list = ['this', 'that', 'these', 'those']
 >>> list.count('this')
 1
@@ -258,6 +258,6 @@ The count operator counts how many times the selected element is present in a Li
 ### INPUT function
 
 This function allows the user to import his input
-```
+```python
 name = input("Please enter your name: ")
 ```
