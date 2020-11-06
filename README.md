@@ -30,6 +30,12 @@ This value is represented by **float class**. It is a real number with floating 
 ### **Boolean**
 
 This is a value that expresses a truth value (which can be **either true or false**) 
+```
+>>> 5 == 5
+True
+>>> 5 == 6
+False
+```
 
 ### **Sequential**
 
@@ -38,7 +44,7 @@ This is a value that expresses a truth value (which can be **either true or fals
 A list is created by placing all the items (elements) inside a square bracket [ ], separated by commas. It doesn't need to be homogeneous but can contain Integers, Strings or Objects at the time. List are mutable and can be changed after their creation.  
 The elements in a list are Indexed and **0 is the first index** -> this means that the last element will be n-1 (eg. 25 elements in the list, index 0:24) 
 
-**Some of the most common Lists methods:**
+**Some of the most common Lists methods:** (Methods act on the values of an object (Strings, lists, and tuples)
 * append() - Add an element to the end of the list
 * extend() - Add all elements of a list to the another list
 * insert() - Insert an item at the defined index
@@ -157,12 +163,12 @@ a##b##c##d!!>>>
 ```
 Escape sequence can be used to modify the format  
 
-\\	Backslash (\)  
-\'	Single quote (')  
-\"	Double quote (")  
-\b	Backspace  
-\n	Linefeed  
-\t	Tab  
+\\      Backslash (\)  
+\'	    Single quote (')  
+\"	    Double quote (")  
+\b	    Backspace  
+\n	    Linefeed  
+\t	    Tab  
 
 ```python
 >>> print("Line 1\n\n\nLine 5")
@@ -173,14 +179,23 @@ Line 5
 >>>
 ```
 
-### = vs ==
-= assignment operator
-== equal sign
+---
 
 ### Python Operators
 Operators are special tokens that represent computations like addition, multiplication and division. The values the operator uses are called operands.  
 Operators follow the rule of PEMDAS - Parenthese, Exponentiation, Multiplication and both Division, than Addition and Subtraction  
 The main Python Operators can be found here: https://www.w3schools.com/python/python_operators.asp
+
+### = vs == and the other comparison operators
+= assignment operator
+== equal sign
+```
+x != y       # x is not equal to y
+x > y        # x is greater than y
+x < y        # x is less than y
+x >= y       # x is greater than or equal to y
+x <= y       # x is less than or equal to y
+```
 
 ### INDEX
 
@@ -229,6 +244,16 @@ The in operator returns whether a given element is contained in a list or tuple
 >>> 'this' in stuff
 True
 ```
+
+### Count
+
+The count operator counts how many times the selected element is present in a List, Tuple
+```
+>>> list = ['this', 'that', 'these', 'those']
+>>> list.count('this')
+1
+```
+---
 
 ### INPUT function
 
