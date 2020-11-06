@@ -122,9 +122,20 @@ Adding and removing elements to a Set -
 
 ##### How to understand the data Type?
 
+```python
+>>> type("Hello, World!")
+<class 'str'>
+>>> type(17)
+<class 'int'>
+```
+
 ##### How to print your result
 
-Escape Sequence	Meaning
+```python
+print("Hello, World!")
+```
+Escape sequence can be used to modify the format  
+
 \\	Backslash (\)
 \'	Single quote (')
 \"	Double quote (")
