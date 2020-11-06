@@ -9,15 +9,15 @@ A computer program is a sequence of instructions that specifies how to perform a
 **repetition** - Perform some action repeatedly, usually with some variation.
 **Debugging** – removing Bugs -  Three kinds of errors can occur in a program: syntax errors, runtime errors, and semantic errors.
 
-##**Data types**
+## **Data types**
 
-###**Strings**
+### **Strings**
 
 strings and the use of quotes
 
-#####How to understand the data Type?
+##### How to understand the data Type?
 
-#####How to print your result
+##### How to print your result
 
 Escape Sequence	Meaning
 \\	Backslash (\)
