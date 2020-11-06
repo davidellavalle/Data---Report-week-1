@@ -1,4 +1,4 @@
-# Data - Report week 1
+# Python Day 5
 
 A computer program is a sequence of instructions that specifies how to perform a computation.
 * **input** - Get data from the keyboard, a file, or some other device.
@@ -322,7 +322,7 @@ for friend in ['Margot', 'Kathryn', 'Prisila']:
     invitation = "Hi " + friend + ".  Please come to my party on Saturday!"
     print(invitation)
 ```
-Often times you will want *a loop that iterates a given number of times*, or that iterates over a given sequence of numbers. The *range function* come in handy for that.
+Often times you will want ***a loop that iterates a given number of times***, or that iterates over a given sequence of numbers. The ***range function*** come in handy for that.
 ```
 >>> for i in range(5):
 ...     print('i is now:', i)
