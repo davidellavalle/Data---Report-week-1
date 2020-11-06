@@ -1,3 +1,7 @@
+Table of contents:
+* [Python Day 5] (https://github.com/davidellavalle/Python-day-5#python-day-5)
+ * [Data types] (https://github.com/davidellavalle/Python-day-5#data-types)
+
 # Python Day 5
 
 A computer program is a sequence of instructions that specifies how to perform a computation.
