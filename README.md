@@ -33,7 +33,54 @@ This is a value that expresses a truth value (which can be **either true or fals
 
 #### **List**
 
-### **String**
+A list is created by placing all the items (elements) inside a square bracket [ ], separated by commas. It doesn't need to be homogeneous but can contain Integers, Strings or Objects at the time. List are mutable and can be changed after their creation.  
+The elements in a list are Indexed and **0 is the first index** -> this means that the last element will be n-1 (eg. 25 elements in the list, index 0:24) 
+
+**Some of the most common Lists methods:**
+* append() - Add an element to the end of the list
+* extend() - Add all elements of a list to the another list
+* insert() - Insert an item at the defined index
+* remove() - Removes an item from the list
+* pop() - Removes and returns an element at the given index
+* clear() - Removes all items from the list
+* index() - Returns the index of the first matched item
+* count() - Returns the count of number of items passed as an argument
+* sort() - Sort items in a list in ascending order
+* reverse() - Reverse the order of items in the list
+* copy() - Returns a shallow copy of the list
+
+```python
+>>> mylist = []
+>>> mylist.append('this')
+>>> mylist
+['this']
+>>> mylist.insert(1, 'thing')
+>>> mylist
+['this', 'thing']
+>>> mylist.remove('thing')
+>>> mylist
+['this']
+```
+
+#### **Tuple**
+A Tuple is created by placing all the items (elements) inside a round bracket ( ). It is unchangeable. In Dictionary we can create keys using tuples  
+Indexes works as per LIST: with positive and negative indexes [1] [2] [-1] [-2]  or with range of indexes [2:5] [-3:-1]
+```
+thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
+print(thistuple[-4:-1])
+('orange', 'kiwi', 'melon')
+```
+To the unchangeability of the tuple there is a workaround: you can convert the tuple into a list, change the list, and convert the list back into a tuple.
+```
+y = list(x)
+y[1] = "kiwi"
+x = tuple(y)
+print(x)
+("apple", "kiwi", "cherry")
+```
+
+
+#### **String**
 
 A string is a collection of one or more characters put in a single quote, double-quote or triple quote.
 
@@ -49,7 +96,7 @@ A string is a collection of one or more characters put in a single quote, double
 
 strings and the use of quotes
 
-#### **Tuple**
+
 
 ### **Container**
 
