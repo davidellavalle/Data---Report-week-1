@@ -70,7 +70,7 @@ thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
 print(thistuple[-4:-1])
 ('orange', 'kiwi', 'melon')
 ```
-To the unchangeability of the tuple there is a workaround: you can convert the tuple into a list, change the list, and convert the list back into a tuple.
+**Unchangeability workaround**: you can convert the tuple into a list, change the list, and convert the list back into a tuple.
 ```python
 y = list(x)
 y[1] = "kiwi"
@@ -120,7 +120,10 @@ Adding and removing elements to a Set -
 
 #### **Dictionary**
 
-##### How to understand the data Type?
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+### How to understand the data Type?
 
 ```python
 >>> type("Hello, World!")
@@ -129,18 +132,33 @@ Adding and removing elements to a Set -
 <class 'int'>
 ```
 
-##### How to print your result
+### How to print your result
 
 ```python
 print("Hello, World!")
 ```
 Escape sequence can be used to modify the format  
 
-\\	Backslash (\)
-\'	Single quote (')
-\"	Double quote (")
-\b	Backspace
-\n	Linefeed
-\t	Tab
+\\	Backslash (\)  
+\'	Single quote (')  
+\"	Double quote (")  
+\b	Backspace  
+\n	Linefeed  
+\t	Tab  
+```python
+>>> print("Line 1\n\n\nLine 5")
+Line 1
 
-= vs ==
+
+Line 5
+>>>
+```
+
+### = vs ==
+= assignment operator
+== equal sign
+
+### Python Operators
+Operators are special tokens that represent computations like addition, multiplication and division. The values the operator uses are called operands.  
+The main Python Operators can be found here: https://www.w3schools.com/python/python_operators.asp
+
