@@ -13,6 +13,8 @@ A computer program is a sequence of instructions that specifies how to perform a
 
 ## **Data types**
 
+![data types](https://media.geeksforgeeks.org/wp-content/uploads/20191023173512/Python-data-structure.jpg)
+
 ### **Numeric**
 
 #### **Integer**
@@ -100,8 +102,11 @@ A string is a collection of one or more characters put in a single quote, double
 
 #### **Set**
 
-Set is an unordered collection of data type that is iterable, mutable and has no duplicate elements (Uniques).  
+Set is an unordered collection of data type that is **iterable, mutable** and has no duplicate elements (**Uniques**).  
+A Set is created by placing all the items (elements) inside curly brackets {}
 The major advantage of using a set, as opposed to a list, is that it has a highly optimized method for checking whether a specific element is contained in the set.
+**Set do not support INDEXING**
+
 ```python
 Set()
 set1 = set("CodeDataAI")  
@@ -171,3 +176,21 @@ Operators are special tokens that represent computations like addition, multipli
 Operators follow the rule of PEMDAS - Parenthese, Exponentiation, Multiplication and both Division, than Addition and Subtraction  
 The main Python Operators can be found here: https://www.w3schools.com/python/python_operators.asp
 
+### The INDEXING operator
+
+The indexing operator ([ ]) selects a single element from a sequence. The expression inside brackets is called the index, and must be an integer value. The index indicates which element to select, hence its name.
+```python
+>>> fruits = ['apples', 'cherries', 'pears']
+>>> fruits[0]
+'apples'
+>>> pairs = [('cheese', 'queso'), ('red', 'rojo'), ('school', 'escuela')]
+>>> pairs[2]
+('school', 'escuela')
+```
+
+### INPUT function
+
+This function allows the user to import his input
+```
+name = input("Please enter your name: ")
+```
