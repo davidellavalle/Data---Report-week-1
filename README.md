@@ -197,7 +197,7 @@ x >= y       # x is greater than or equal to y
 x <= y       # x is less than or equal to y
 ```
 
-### INDEX
+### *INDEX*
 
 The indexing operator ([ ]) selects a single element from a sequence. The expression inside brackets is called the index, and must be an integer value. The index indicates which element to select, hence its name.
 ```python
@@ -209,7 +209,8 @@ The indexing operator ([ ]) selects a single element from a sequence. The expres
 ('school', 'escuela')
 ```
 
-### Slices
+### *Slices*
+
 Like with indexing, we use square brackets ([ ]) as the slice operator, but instead of one integer value inside we have two, seperated by a colon (:):
 ```python
 >>> singers = "Peter, Paul, and Mary"
@@ -217,7 +218,7 @@ Like with indexing, we use square brackets ([ ]) as the slice operator, but inst
 'Peter'
 ```
 
-### Length
+### *Length*
 
 With lists and tuples, len returns the number of elements in the sequence
 ```python
@@ -227,7 +228,7 @@ With lists and tuples, len returns the number of elements in the sequence
 >>> len(pairs)
 3
 ```
-### Enumerate
+### *Enumerate*
 
 I can find index and value
 ```python
@@ -237,7 +238,7 @@ for index, fruit in enumerate(fruits):
     print("The fruit, " + fruit + ", is in position " + str(index) + ".")
 ```
 
-### IN
+### *IN*
 The in operator returns whether a given element is contained in a list or tuple
 ```python
 >>> stuff = ['this', 'that', 'these', 'those']
@@ -245,7 +246,7 @@ The in operator returns whether a given element is contained in a list or tuple
 True
 ```
 
-### Count
+### *Count*
 
 The count operator counts how many times the selected element is present in a List, Tuple
 ```python
@@ -253,11 +254,35 @@ The count operator counts how many times the selected element is present in a Li
 >>> list.count('this')
 1
 ```
----
 
-### INPUT function
+### *INPUT* function
 
 This function allows the user to import his input
 ```python
 name = input("Please enter your name: ")
 ```
+
+----
+
+## Conditionals and loops
+
+### The *if* Statement
+
+This is a compound statement which means it has a HEADER and a BODY.  **"IF boolean expression:"**
+
+* The colon (:) is significant and required. It separates the header of the compound statement from the body.
+* The line after the colon must be indented. It is standard in Python to use four spaces for indenting.
+* All lines indented the same amount after the colon will be executed whenever the BOOLEAN_EXPRESSION is true.
+```
+food = 'spam'
+
+if food == 'spam':
+    print('Ummmm, my favorite!')
+    print('I feel like saying it 100 times...')
+    print(100 * (food + '! '))
+```
+
+### The *if else* Statement
+
+### Break
+a loop might be stopped from running if the True statement has been satisfied 
