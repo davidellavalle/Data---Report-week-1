@@ -119,11 +119,11 @@ The major advantage of using a set, as opposed to a list, is that it has a highl
 Set()
 set1 = set("CodeDataAI")  
 print(set1)
-	{'o', 'D', 'a', 'A', 'e', 't', 'I', 'd', 'C'}
+{'o', 'D', 'a', 'A', 'e', 't', 'I', 'd', 'C'}
 
 set1 = set(["Code", "Data", "Code"])  
 print(set1)
-	{'Data', 'Code'}
+{'Data', 'Code'}
 ```
 Adding and removing elements to a Set - 
 * set.add
