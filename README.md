@@ -1,5 +1,5 @@
-#### Table of contents:
-<https://github.com/davidellavalle/Python-day-5#python-day-5#<Python Day 5>
+# Table of contents:
+<https://github.com/davidellavalle/Python-day-5#python-day-5#<python Day 5>
  * [Data types] (#https://github.com/davidellavalle/Python-day-5#data-types)
 
 # Python Day 5
