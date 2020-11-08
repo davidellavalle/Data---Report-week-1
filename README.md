@@ -1,6 +1,6 @@
 # Table of contents:
 
- * [Data types] (#https://github.com/davidellavalle/Python-day-5#data-types)
+ * [Data types](https://github.com/davidellavalle/Python-day-5#data-types)
 
 # Python Day 5
 
