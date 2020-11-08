@@ -26,7 +26,7 @@
     - [Continue](https://github.com/davidellavalle/Python-day-5#continue)
     - [TBF - Nested Loops for Nested Data](https://github.com/davidellavalle/Python-day-5#nested-loops-for-nested-data)
 * [Function](https://github.com/davidellavalle/Python-day-5#function)
-* [Excercise and solutions]()
+* [Excercises and solutions]()
 
 # Python Day 5
 
