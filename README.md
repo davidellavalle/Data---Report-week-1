@@ -28,6 +28,8 @@
 * [Function](https://github.com/davidellavalle/Python-day-5#function)
 * [Excercises and solutions]()
 
+* [How to create a Readme Github File]
+
 # Python Day 5
 
 A computer program is a sequence of instructions that specifies how to perform a computation.
@@ -606,3 +608,7 @@ b = [2]
 array_diff (a,b)
 [1]
 ```
+
+
+# How to create a Github Readme File
+table of contents - https://www.setcorrect.com/portfolio/work11/
