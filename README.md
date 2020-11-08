@@ -26,9 +26,9 @@
     - [Continue](https://github.com/davidellavalle/Python-day-5#continue)
     - [TBF - Nested Loops for Nested Data](https://github.com/davidellavalle/Python-day-5#nested-loops-for-nested-data)
 * [Function](https://github.com/davidellavalle/Python-day-5#function)
-* [Excercises and solutions]()
+* [Excercises and solutions](https://github.com/davidellavalle/Python-day-5#excercise-and-solutions)
 
-* [How to create a Readme Github File]
+* [How to create a Readme Github File](https://github.com/davidellavalle/Python-day-5#how-to-create-a-github-readme-file)
 
 # Python Day 5
 
