@@ -1,12 +1,32 @@
 # Table of contents:
 
  * [Data types](https://github.com/davidellavalle/Python-day-5#data-types)
- - [Numeric: Integer - Float](https://github.com/davidellavalle/Python-day-5#numeric)
- - [Boolean](https://github.com/davidellavalle/Python-day-5#boolean)
- - [Sequential: List - Tuple - String](https://github.com/davidellavalle/Python-day-5#sequential)
- - [Container: Set - Dictionary](https://github.com/davidellavalle/Python-day-5#container)
- * []()
- * [Excercise and solutions]()
+    - [Numeric: Integer - Float](https://github.com/davidellavalle/Python-day-5#numeric)
+    - [Boolean](https://github.com/davidellavalle/Python-day-5#boolean)
+    - [Sequential: List - Tuple - String](https://github.com/davidellavalle/Python-day-5#sequential)
+    - [Container: Set - Dictionary](https://github.com/davidellavalle/Python-day-5#container)
+ * [Data Type - How to find it](https://github.com/davidellavalle/Python-day-5#how-to-find-out-the-data-type)
+ * [Print and the main escape sequences](https://github.com/davidellavalle/Python-day-5#how-to-print-your-result)
+ * [Python Operators](https://github.com/davidellavalle/Python-day-5#python-operators)
+    - [= vs ==](https://github.com/davidellavalle/Python-day-5#-vs--and-the-other-comparison-operators)
+    - [Index](https://github.com/davidellavalle/Python-day-5#index)
+    - [Slices](https://github.com/davidellavalle/Python-day-5#slices)
+    - [Length](https://github.com/davidellavalle/Python-day-5#length)
+    - [Enumerate](https://github.com/davidellavalle/Python-day-5#enumerate)
+    - [In](https://github.com/davidellavalle/Python-day-5#in)
+    - [Count](https://github.com/davidellavalle/Python-day-5#count)
+    - [Input](https://github.com/davidellavalle/Python-day-5#input)
+* [Conditionals and loops](https://github.com/davidellavalle/Python-day-5#conditionals-and-loops)
+    - [The if Statement](https://github.com/davidellavalle/Python-day-5#the-if-statement)
+    - [The if else Statement](https://github.com/davidellavalle/Python-day-5#the-if-else-statement)   
+    - [Chained conditionals](https://github.com/davidellavalle/Python-day-5#chained-conditionals)
+    - [Nested conditionals](https://github.com/davidellavalle/Python-day-5#nested-conditionals)
+    - [The for loop](https://github.com/davidellavalle/Python-day-5#the-for-loop)
+    - [Break](https://github.com/davidellavalle/Python-day-5#break)
+    - [Continue](https://github.com/davidellavalle/Python-day-5#continue)
+    - [TBF - Nested Loops for Nested Data](https://github.com/davidellavalle/Python-day-5#nested-loops-for-nested-data)
+* [Function](https://github.com/davidellavalle/Python-day-5#function)
+* [Excercise and solutions]()
 
 # Python Day 5
 
@@ -205,7 +225,7 @@ x >= y       # x is greater than or equal to y
 x <= y       # x is less than or equal to y
 ```
 
-### *INDEX*
+### *Index*
 
 The indexing operator ([ ]) selects a single element from a sequence. The expression inside brackets is called the index, and must be an integer value. The index indicates which element to select, hence its name.
 ```python
@@ -246,7 +266,7 @@ for index, fruit in enumerate(fruits):
     print("The fruit, " + fruit + ", is in position " + str(index) + ".")
 ```
 
-### *IN*
+### *In*
 The in operator returns whether a given element is contained in a list or tuple
 ```python
 >>> stuff = ['this', 'that', 'these', 'those']
@@ -263,7 +283,7 @@ The count operator counts how many times the selected element is present in a Li
 1
 ```
 
-### *INPUT* function
+### *Input*
 
 This function allows the user to import his input
 ```python
