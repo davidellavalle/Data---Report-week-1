@@ -1,6 +1,12 @@
 # Table of contents:
 
  * [Data types](https://github.com/davidellavalle/Python-day-5#data-types)
+ - [Numeric: Integer - Float](https://github.com/davidellavalle/Python-day-5#numeric)
+ - [Boolean](https://github.com/davidellavalle/Python-day-5#boolean)
+ - [Sequential: List - Tuple - String](https://github.com/davidellavalle/Python-day-5#sequential)
+ - [Container: Set - Dictionary](https://github.com/davidellavalle/Python-day-5#container)
+ * []()
+ * [Excercise and solutions]()
 
 # Python Day 5
 
