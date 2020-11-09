@@ -416,11 +416,16 @@ esercizio 3 + join
 
 ## Function
 
-A function is a named sequence of statements that performs a desired operation. It si a compoiund statement, header (def e termina con colon:) and body indented
+A function is a block of organized, reusable code that is used to perform a single, specific task. Functions provide better modularity for your application and a high degree of code reusability.
+A function is a named sequence of statements that performs a desired operation. It is a compound statement, header (def e termina con colon:) and body indented
 * I can generate any name but doo not use a Keyword
 * Use as many statements as needed
 * RETURN to cease execution of statements (without Return the system will return NONE as value)
 * All other statements after RETURN won't be executed (**dead code**)
+
+I know already many Python built-in functions like print(),len(), sum() etc. At the same time you can also create your own functions. These functions are called user-defined functions.
+* Quick [guide](https://www.programiz.com/python-programming/function) to start with Function.
+* Conceptual [guide](https://inst.eecs.berkeley.edu/~cs61a/sp12/book/functions.html) how function works. (Section 1.1 can be skipped)
 
 ```
 def NAME( LIST OF PARAMETERS ):
