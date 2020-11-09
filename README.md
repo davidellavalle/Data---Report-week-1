@@ -46,6 +46,8 @@ A computer program is a sequence of instructions that specifies how to perform a
 
 ![data types](https://media.geeksforgeeks.org/wp-content/uploads/20191023173512/Python-data-structure.jpg)
 
+Data types [guide](https://dsft.code-data-ai.com/data-types-python/)
+
 ### **Numeric**
 
 #### **Integer**
