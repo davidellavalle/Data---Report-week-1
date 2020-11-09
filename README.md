@@ -101,12 +101,16 @@ The elements in a list are Indexed and **0 is the first index** -> this means th
 ```
 
 #### **Tuple**
-A Tuple is created by placing all the items (elements) inside a round bracket ( ). It is unchangeable. In Dictionary we can create keys using tuples  
+A Tuple is created by placing all the items (elements) inside a round bracket ( ). It is unchangeable, deletion or Updation of a tuple is not allowed.. In Dictionary we can create keys using tuples  
 Indexes works as per LIST: with positive and negative indexes [1] [2] [-1] [-2]  or with range of indexes [2:5] [-3:-1]
+
+
 ```python
 thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
 print(thistuple[-4:-1])
 ('orange', 'kiwi', 'melon')
+
+
 ```
 **Unchangeability workaround**: you can convert the tuple into a list, change the list, and convert the list back into a tuple.
 ```python
@@ -161,7 +165,7 @@ Adding and removing elements to a Set -
 
 #### **Dictionary**
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Dictionary is an unordered collection of data values, used to store data values like a map.Unlike other Data Types that hold only single value as an element, Dictionary holds key:value pair.
 
 ---
 
@@ -294,7 +298,11 @@ name = input("Please enter your name: ")
 
 ----
 
-## Conditionals and loops
+## Conditionals - Decision Making  
+
+There comes a point in our life where we need to decide what steps should be taken and based on that we decide our next decisions. In programming, we often have this similar situation where we need to decide which block of code should be executed based on a condition.Decisions like these are required everywhere in programming and they decide the direction of flow of program execution. Python has the following decision-making statements:
+
+![ifs](https://camo.githubusercontent.com/ff055b9fc456c339329742d7cd4cc4e44fb37c287e5d2ad3dc2c71c0d1e05323/68747470733a2f2f6d656469612e6765656b73666f726765656b732e6f72672f77702d636f6e74656e742f75706c6f6164732f32303230303332363136323233372f6e65737465642d6966312e6a7067)
 
 ### The *if* Statement
 
@@ -344,6 +352,12 @@ else:
     else:
         STATEMENTS_C
 ```
+
+## Working with loops
+
+Computers are often used to automate repetitive tasks. Repeating identical or similar tasks without making errors is something that computers do well and people do poorly.
+
+Repeated execution of a set of statements is called iteration. Python has two statements for iteration – **for and while**
 
 ### The *for* loop
 
