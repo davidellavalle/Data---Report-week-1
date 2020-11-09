@@ -16,7 +16,7 @@
     - [In](https://github.com/davidellavalle/Python-day-5#in)
     - [Count](https://github.com/davidellavalle/Python-day-5#count)
     - [Input](https://github.com/davidellavalle/Python-day-5#input)
-* [Conditionals - Decisonn Making](https://github.com/davidellavalle/Python-day-5#conditionals---decision-making)
+* [Conditionals - Decision Making](https://github.com/davidellavalle/Python-day-5#conditionals---decision-making)
     - [The if Statement](https://github.com/davidellavalle/Python-day-5#the-if-statement)
     - [The if else Statement](https://github.com/davidellavalle/Python-day-5#the-if-else-statement)   
     - [Chained conditionals](https://github.com/davidellavalle/Python-day-5#chained-conditionals)
