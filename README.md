@@ -16,11 +16,12 @@
     - [In](https://github.com/davidellavalle/Python-day-5#in)
     - [Count](https://github.com/davidellavalle/Python-day-5#count)
     - [Input](https://github.com/davidellavalle/Python-day-5#input)
-* [Conditionals and loops](https://github.com/davidellavalle/Python-day-5#conditionals-and-loops)
+* [Conditionals - Decisonn Making](https://github.com/davidellavalle/Python-day-5#conditionals---decision-making)
     - [The if Statement](https://github.com/davidellavalle/Python-day-5#the-if-statement)
     - [The if else Statement](https://github.com/davidellavalle/Python-day-5#the-if-else-statement)   
     - [Chained conditionals](https://github.com/davidellavalle/Python-day-5#chained-conditionals)
     - [Nested conditionals](https://github.com/davidellavalle/Python-day-5#nested-conditionals)
+* [Working with loops](https://github.com/davidellavalle/Python-day-5#working-with-loops)
     - [The for loop](https://github.com/davidellavalle/Python-day-5#the-for-loop)
     - [Break](https://github.com/davidellavalle/Python-day-5#break)
     - [Continue](https://github.com/davidellavalle/Python-day-5#continue)
@@ -215,7 +216,7 @@ Line 5
 
 ---
 
-### Python Operators
+## Python Operators
 Operators are special tokens that represent computations like addition, multiplication and division. The values the operator uses are called operands.  
 Operators follow the rule of PEMDAS - Parenthese, Exponentiation, Multiplication and both Division, than Addition and Subtraction  
 The main Python Operators can be found here: https://www.w3schools.com/python/python_operators.asp
