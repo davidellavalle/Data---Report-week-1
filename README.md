@@ -614,3 +614,4 @@ array_diff (a,b)
 
 * Table of contents - https://www.setcorrect.com/portfolio/work11/  
 * Markdown Cheatsheet - https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+                      - https://guides.github.com/features/mastering-markdown/
