@@ -102,6 +102,13 @@ The elements in a list are Indexed and **0 is the first index** -> this means th
 >>> mylist
 ['this']
 ```
+how to remove brackets from sublist - **FLATTENED**
+```
+>>> list_of_lists = [[180.0, 1, 2, 3], [173.8], [164.2], [156.5], [147.2], [138.2]] 
+>>> flattened  = [val for sublist in list_of_lists for val in sublist] 
+>>> flattened  
+[180.0, 1, 2, 3, 173.8, 164.2, 156.5, 147.2,138.2]
+```
 
 #### **Tuple**
 A Tuple is created by placing all the items (elements) inside a round bracket ( ). It is unchangeable, deletion or Updation of a tuple is not allowed.. In Dictionary we can create keys using tuples  
