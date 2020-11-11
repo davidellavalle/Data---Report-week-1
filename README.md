@@ -36,7 +36,8 @@
 ## Tools installing
 
 * Github - [video tutorial](https://www.youtube.com/watch?v=XIlxdG6bGU0&feature=emb_title)
-* Visual Studio Code
+* Visual Studio Code - 
+    * new file - it should always contain the .ipynb to be recognized as python paper work
 * Link Github with VSC - [tutorial](https://www.youtube.com/watch?v=XIlxdG6bGU0&feature=emb_title)
 
 A computer program is a sequence of instructions that specifies how to perform a computation.
