@@ -33,6 +33,12 @@
 
 # Python Day 5
 
+## Tools installing
+
+* Github - [video tutorial](https://www.youtube.com/watch?v=XIlxdG6bGU0&feature=emb_title)
+* Visual Studio Code
+* Link Github with VSC - [tutorial](https://www.youtube.com/watch?v=XIlxdG6bGU0&feature=emb_title)
+
 A computer program is a sequence of instructions that specifies how to perform a computation.
 * **input** - Get data from the keyboard, a file, or some other device.
 * **output** - Display data on the screen or send data to a file or other device.
