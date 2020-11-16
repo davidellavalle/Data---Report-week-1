@@ -33,12 +33,16 @@
 
 # Python Day 5
 
-## Tools installing
+## Tools
 
 * Github - [video tutorial](https://www.youtube.com/watch?v=XIlxdG6bGU0&feature=emb_title)
 * Visual Studio Code - 
-    * new file - it should always contain the .ipynb to be recognized as python paper work
+    * new file - it must contain the **.ipynb** to be recognized as python paper work
 * Link Github with VSC - [tutorial](https://www.youtube.com/watch?v=XIlxdG6bGU0&feature=emb_title)
+* Anaconda - It’s an open-source package management system and environment management system, primarily for Python programs.
+It could happen that the installed version of a programm in Anaconda is outdated, in taht case I would need to change it:
+  * In Anaconda environments check what is the current version installed
+  * Look for the codes to install newest versin of the programm and let it run on Anaconda prompt 
 
 A computer program is a sequence of instructions that specifies how to perform a computation.
 * **input** - Get data from the keyboard, a file, or some other device.
