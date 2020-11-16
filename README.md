@@ -1,5 +1,6 @@
 # Table of contents:
 
+ * [Tools](https://github.com/davidellavalle/Python-day-5#tools)
  * [Data types](https://github.com/davidellavalle/Python-day-5#data-types)
     - [Numeric: Integer - Float](https://github.com/davidellavalle/Python-day-5#numeric)
     - [Boolean](https://github.com/davidellavalle/Python-day-5#boolean)
