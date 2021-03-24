@@ -392,9 +392,10 @@ for friend in ['Margot', 'Kathryn', 'Prisila']:
 ```
 Often times you will want ***a loop that iterates a given number of times***, or that iterates over a given sequence of numbers. The ***range function*** come in handy for that.
 ```
->>> for i in range(5):
-...     print('i is now:', i)
-...
+for i in range(5):       # range(2,7) numbers 2-3-4-5-6   
+    print('i is now:', i)
+
+Output:
 i is now 0
 i is now 1
 i is now 2
@@ -410,6 +411,9 @@ for i in [12, 16, 17, 24, 29]:
         break        # immediately exit the loop
     print(i)
 print("done")
+
+Output:
+
 12
 16
 done
@@ -420,20 +424,39 @@ done
 Skip the rest of the body for that iteration but carry on running for the remaining iterations
 ```
 for i in [12, 16, 17, 24, 29, 30]:
-    if i % 2 == 1:      # if the number is odd
+    if i % 2 == 1:     # if the number is odd
+        print("Found!")
         continue        # don't process it
     print(i)
 12
 16
+Found!
 24
 30
 ```
 
 ### Nested Loops for Nested Data
 
-esercizio 3 + join
+````
+nums = [1,2,3,4]
 
+for num in nums:
+    for letter in "abc":
+        print(num, letter)
+
+1a
+1b
+1c
+2a
+2b
+...
+4c
+````
 ----
+
+### While loop
+
+The for loop iterates through a certain number of values but WHILE LOOP will continue going until a certain condition is met
 
 ## Function
 
