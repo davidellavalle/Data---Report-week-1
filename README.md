@@ -457,6 +457,15 @@ for num in nums:
 ### While loop
 
 The for loop iterates through a certain number of values but WHILE LOOP will continue going until a certain condition is met
+````
+x = 0
+
+while x<10:
+    print(x)
+    x +=1 # this way the x will increment and at one point the condition will be met
+```` 
+
+Note : Ctrl + C to stop the loop in case of infite loop.
 
 ## Function
 
