@@ -489,7 +489,16 @@ def f(x):
     return 3 * x ** 2 - 2 * x + 5
 ```
 
-----
+
+## Regular Expressions (Regex)
+
+Available on Python as **re** library, this function is special character sequence that specifies a search pattern and helps matching or finding other strings or sets of strings. 
+
+re.findall() -  finds all the words that match the pattern passed on it and stores it in the list.
+re.compile()
+
+\w represents “any word character” - alphanumeric (letters or numbers)
+
 
 # Excercise and solutions
 
