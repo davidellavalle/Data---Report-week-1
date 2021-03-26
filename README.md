@@ -498,6 +498,7 @@ re.findall() -  finds all the words that match the pattern passed on it and stor
 re.compile()
 
 \w  represents “any word character” - alphanumeric (letters or numbers)
+\W	Any Non-alphanumeric character
 $	Matches the end of the line
 \s	Matches whitespace
 \S	Matches any non-whitespace character
@@ -510,6 +511,25 @@ $	Matches the end of the line
 [a-z0-9]	The set of characters can include a range
 (	Indicates where string extraction is to start
 )	Indicates where string extraction is to end
+(.*)	Capture all
+(abc|def)	Matches abc or def
+abc…	Letters		
+{m}	m Repetitions
+123…	Digits		
+{m,n}	m to n Repetitions
+\d	Any Digit		
+\D	Any Non-digit character		
+.	Any Character		
+?	Optional character
+\.	Period		
+[abc]	Only a, b, or c		
+[^abc]	Not a, b, nor c		
+^…$	Starts and ends
+[a-z]	Characters a to z		
+(…)	Capture Group
+[0-9]	Numbers 0 to 9		
+(a(bc))	Capture Sub-group
+
 
 # Excercise and solutions
 
